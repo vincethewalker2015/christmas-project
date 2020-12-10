@@ -1,11 +1,30 @@
 .jumbotron {
+  /* background: url('images/christmas.jpg') !important; */
   background-size: cover;
   height: 400px;
   margin-top: 30px;
 }
 
-h1 {
+.jumbotron h1 {
+  font-family: 'Indie Flower', cursive;
   text-align: center ;
   color: #fff !important;
 }
 
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) { 
+  .jumbotron{
+    height: 200px;
+    background-size: 100px;
+  }
+}
+
+ video {
+  border: 3px solid black;
+  padding: 2px;
+}
+
+.chapter {
+  text-align: center;
+}
