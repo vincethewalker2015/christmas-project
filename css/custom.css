@@ -16,15 +16,6 @@
   color: #fff !important;
 }
 
-@media only screen 
-and (min-device-width : 375px) 
-and (max-device-width : 667px) { 
-  .jumbotron{
-    height: 200px;
-    background-size: 100px;
-  }
-}
-
  video {
   border: 3px solid #fff;
   padding: 2px;
@@ -32,4 +23,8 @@ and (max-device-width : 667px) {
 
 .chapter {
   text-align: center;
+}
+
+h4 {
+  color: #fff !important;
 }
