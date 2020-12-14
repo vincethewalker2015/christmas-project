@@ -4,8 +4,11 @@
 
 .jumbotron {
   /* background: url('images/christmas.jpg') !important; */
+  -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
   background-size: cover;
-  height: 400px;
   margin-top: 30px;
   border: 2px solid #fff;
 }
@@ -29,34 +32,40 @@ h4 {
   color: #fff !important;
 }
 
-.santa-1 img{
+.santa-1{
   width: 15%;
   border: 2px solid  #CC231E;
   border-radius: 5px;
   padding: 1px;
 }
 
-.santa-2 img{
+.santa-2 {
   width: 15%;
   border: 2px solid  #CC231E;
   border-radius: 5px;
   padding: 1px;
-  margin-left: 20px;
+  margin-left: 650px;
   
 }
-
+/* iPhone in portrait */
 @media screen and (max-width: 767px) {
-  .santa-1 img {
+  .santa-1 {
     width: 25%;
     margin-left: 200px;
     margin-top: 20px;
     } 
-    .santa-2 img {
-      display: none;
-    }  
+    // .santa-2 {
+    //   display: none;
+    // }  
   }
 
-
+/* Retina iPad in portrait & landscape */
+@media only screen and (max-device-width : 1024px)
+and (-webkit-min-device-pixel-ratio: 2) {
+  .santa-2 {
+    display: none !important;
+  }  
+}
 
 
 // .santa-2 {
