@@ -47,6 +47,17 @@ h4 {
   margin-left: 650px;
   
 }
+
+/* Laptops */
+@media only screen  and (max-width : 1190px) {
+  .santa-1 {
+    margin-left: 160px
+  }
+  .santa-2 {
+    margin-left: 80px;
+  }
+  }
+  
 /* iPhone 6 */
 @media screen and (max-width: 667px) 
 and ( orientation: portrait ){
