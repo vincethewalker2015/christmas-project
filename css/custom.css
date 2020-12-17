@@ -28,8 +28,13 @@
   text-align: center;
 }
 
-.frame h3 {
+.chapter-2 {
+  text-align: center;
+}
+
+.frame p {
   font-family: 'Indie Flower', cursive;
+  font-size: 28px;
   text-align: center ;
   color: #fff !important;
 }
@@ -73,6 +78,9 @@ and ( orientation: portrait ){
      .santa-2 {
        display: none;
      }  
+     .vid-title {
+       margin-top: 30px;
+     }
   }
 
   @media screen and (max-width: 667px) 
