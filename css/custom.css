@@ -28,7 +28,9 @@
   text-align: center;
 }
 
-h4 {
+.frame h3 {
+  font-family: 'Indie Flower', cursive;
+  text-align: center ;
   color: #fff !important;
 }
 
