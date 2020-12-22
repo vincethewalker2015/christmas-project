@@ -24,6 +24,7 @@
   padding: 2px;
 }
 
+
 .chapter {
   text-align: center;
 }
@@ -36,8 +37,19 @@
   text-align: center;
 }
 
+.chapter-4 {
+  text-align: center;
+  padding-top: 50px;
+}
+
 .frame p {
   font-family: 'Indie Flower', cursive;
+  font-size: 28px;
+  text-align: center ;
+  color: #fff !important;
+}
+h2  {
+  font-family: 'Indie Flower', cursive !important;
   font-size: 28px;
   text-align: center ;
   color: #fff !important;
