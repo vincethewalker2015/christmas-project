@@ -24,12 +24,33 @@
   padding: 2px;
 }
 
+
 .chapter {
   text-align: center;
 }
 
-.frame h3 {
+.chapter-2 {
+  text-align: center;
+}
+
+.chapter-3 {
+  text-align: center;
+}
+
+.chapter-4 {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.frame p {
   font-family: 'Indie Flower', cursive;
+  font-size: 28px;
+  text-align: center ;
+  color: #fff !important;
+}
+h2  {
+  font-family: 'Indie Flower', cursive !important;
+  font-size: 28px;
   text-align: center ;
   color: #fff !important;
 }
@@ -73,6 +94,9 @@ and ( orientation: portrait ){
      .santa-2 {
        display: none;
      }  
+     .vid-title {
+       margin-top: 30px;
+     }
   }
 
   @media screen and (max-width: 667px) 
